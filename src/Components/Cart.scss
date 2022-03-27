@@ -4,6 +4,7 @@ html {
 
 .side-drawer { 
    height: 100%;
+   overflow-y: scroll;
    background: rgb(211, 218, 218);
    position: fixed;
    top: 0;
