@@ -1,0 +1,16 @@
+.comp-navigation {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(221, 224, 224);
+    > ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      flex-direction: row;
+      list-style: none;
+    }
+  }
+  

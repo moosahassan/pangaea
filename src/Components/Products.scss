@@ -1,0 +1,37 @@
+.product {
+    padding: 50px;
+    margin: auto;
+}
+
+.img {
+    width: 50%;
+    padding-bottom: 60px;
+}
+
+.title {
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.price {
+    font-size: 0.8rem;
+    padding: 0;
+}
+/* Responsive layout - makes a three column layout */
+@media (min-width: 768px) { 
+    .medium-screen {
+        flex: 0 0 auto;
+        width: 33.3333%;
+      }
+      
+}
+
+/* Responsive layout - makes the two column layout */
+@media (max-width: 768px) { 
+    .small-screen {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+      
+}
